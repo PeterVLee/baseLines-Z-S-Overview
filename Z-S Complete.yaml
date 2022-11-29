@@ -403,7 +403,7 @@ presets:
         - 1538
         - 1972
         - 1991
-- - '⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+- - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -1354,7 +1354,7 @@ presets:
         - 4494
         - 4499
         - 4501
-- - '⌘ Brackets: PvE'
+- - '<color=0xFFD38FFD>⌘ Brackets: PvE</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -2045,7 +2045,7 @@ presets:
         - 1657
         - 1915
         - 2020
-- - '⌘ Brackets: Warpout (!)'
+- - '<color=0xFF66FF66>⌘ Brackets: Warpout (!)</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -2092,7 +2092,7 @@ presets:
         - 1023
         - 1548
         - 4088
-- - '⌘ Brackets: Travel'
+- - '<color=0xFFFFFFFF>⌘ Brackets: Travel</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -4500,7 +4500,7 @@ presets:
         - 4434
         - 4494
         - 4501
-- - '⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+- - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (-Dro)</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -6812,7 +6812,7 @@ stateColorsNameList:
 tabSetup:
 - - 0
   - - - bracket
-      - '⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (-Dro)</color>'
     - - color
       - null
     - - name
@@ -6821,7 +6821,7 @@ tabSetup:
       - '<color=0xFFFF6666>✜ --- PvP: Basic (+Neut +NPC)</color></color>'
 - - 1
   - - - bracket
-      - '⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (-Dro)</color>'
     - - color
       - null
     - - name
@@ -6830,7 +6830,7 @@ tabSetup:
       - <color=0xFFFF6666>✜ -- Ships only</color>
 - - 2
   - - - bracket
-      - '⌘ Brackets: PvE'
+      - '<color=0xFFFFFF66>⌘ Brackets: PvE</color>'
     - - color
       - null
     - - name
@@ -6839,7 +6839,7 @@ tabSetup:
       - '<color=0xFFD38FFD>✜ PvE: Basic</color>'
 - - 3
   - - - bracket
-      - '⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (-Dro)</color>'
     - - color
       - null
     - - name
@@ -6848,7 +6848,7 @@ tabSetup:
       - '<color=0xFF66CCFF>✪ --- Friendly: All</color>'
 - - 7
   - - - bracket
-      - '⌘ Brackets: Warpout (!)'
+      - '<color=0xFF66FF66>⌘ Brackets: Warpout (!)</color>'
     - - color
       - null
     - - name
