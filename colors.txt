@@ -18,3 +18,7 @@ purple dscan
 
 purple pve
 '<color=0xFFD38FFD></color>'
+
+
+
+test color
