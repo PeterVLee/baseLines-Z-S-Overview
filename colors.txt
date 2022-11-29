@@ -1,0 +1,20 @@
+red combat
+'<color=0xFFFF6666></color>'
+
+yellow targets
+'<color=0xFFFFFF66></color>'
+
+whitish
+'<color=0xFFFFFFFF></color>'
+
+blue
+'<color=0xFF66CCFF></color>'
+
+green
+'<color=0xFF66FF66></color>'
+
+purple dscan
+'<color=0xFFFD96CF></color>'
+
+purple pve
+'<color=0xFFD38FFD></color>'
