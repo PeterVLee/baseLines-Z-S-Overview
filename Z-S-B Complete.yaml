@@ -6812,7 +6812,7 @@ stateColorsNameList:
 tabSetup:
 - - 0
   - - - bracket
-      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (-Dro)</color>'
+      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
     - - color
       - null
     - - name
@@ -6821,7 +6821,7 @@ tabSetup:
       - '<color=0xFFFF6666>✜ --- PvP: Basic (+Neut +NPC)</color></color>'
 - - 1
   - - - bracket
-      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (-Dro)</color>'
+      - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
     - - color
       - null
     - - name
