@@ -3,3 +3,7 @@ FW filter w/ war targets (nah not worth)
 
 set default bracket to +drones (done)
 proton-supported version w/ multi overviews (too much effort?)
+
+
+
+DO THIS: Fix d-scan split POS's with other stuff
