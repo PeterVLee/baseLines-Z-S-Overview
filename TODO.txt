@@ -1,4 +1,5 @@
 add abyssal filter w/ wrecks
-FW filter w/ war targets
+FW filter w/ war targets (nah not worth)
+proton-supported version w/ multi overviews (too much effort?)
 
-proton-supported version w/ multi overviews
+reorg/sort the overview presets because CCP doesn't know how
