@@ -1,5 +1,2 @@
 add abyssal filter w/ wrecks
-FW filter w/ war targets (nah not worth)
-proton-supported version w/ multi overviews (too much effort?)
-
-reorg/sort the overview presets because CCP doesn't know how
+add agents to ratting overview
