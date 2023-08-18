@@ -7164,9 +7164,11 @@ tabSetup:
   - - - bracket
       - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
     - - color
-      - null
+      - - 1.0
+        - 0.25
+        - 0.25
     - - name
-      - <fontsize=13> </fontsize><color=0xFFFF6666><b> Combat  </b></color>
+      - <b> Combat </b>
     - - overview
       - '<color=0xFFFF6666>✜ --- PvP: Basic (+Neut +NPC)</color></color>'
     - - tabColumnOrder
@@ -7194,9 +7196,11 @@ tabSetup:
   - - - bracket
       - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
     - - color
-      - null
+      - - 1.0
+        - 0.25
+        - 0.25
     - - name
-      - <color=0xFFFF6666><b>  Ships  </b></color>
+      - <b> Ships </b>
     - - overview
       - <color=0xFFFF6666>✜ -- Ships only</color>
     - - tabColumnOrder
@@ -7224,9 +7228,11 @@ tabSetup:
   - - - bracket
       - '<color=0xFFD38FFD>⌘ Brackets: PvE</color>'
     - - color
-      - null
+      - - 0.8125
+        - 0.25
+        - 1.0
     - - name
-      - <color=0xFFD38FFD><b>  Ratting  </b></color>
+      - <b> PVE </b>
     - - overview
       - '<color=0xFFD38FFD>✜ PvE: Basic</color>'
     - - tabColumnOrder
@@ -7254,9 +7260,11 @@ tabSetup:
   - - - bracket
       - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
     - - color
-      - null
+      - - 0.25
+        - 1.0
+        - 1.0
     - - name
-      - <color=0xFF66CCFF><b>  Friendly  </b></color>
+      - <b>Friendly</b>
     - - overview
       - '<color=0xFF66CCFF>✪ --- Friendly: All</color>'
     - - tabColumnOrder
@@ -7284,9 +7292,11 @@ tabSetup:
   - - - bracket
       - '<color=0xFF66FF66>⌘ Brackets: Warpout (!)</color>'
     - - color
-      - null
+      - - 0.25
+        - 1.0
+        - 0.25
     - - name
-      - <color=0xFF66FF66><b>  GTFO  </b></color>
+      - <b> GTFO </b>
     - - overview
       - '<color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
     - - tabColumns
