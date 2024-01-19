@@ -667,7 +667,7 @@ presets:
         - 2001
         - 4088
         - 4594
-- - '&lt;color=0xFFFFFFFF&gt;︽ Celestials&lt;/color&gt;'
+- - '<color=0xFFFFFFFF>︽ Celestials</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -789,7 +789,7 @@ presets:
         - 4088
         - 4093
         - 4107
-- - '&lt;color=0xFFFFFFFF&gt;︽ Travel&lt;/color&gt;'
+- - '<color=0xFFFFFFFF>︽ Travel</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -829,7 +829,7 @@ presets:
         - 4547
         - 4549
         - 4644
-- - '&lt;color=0xFFFFFFFF&gt;︽ Gates&lt;/color&gt;'
+- - '<color=0xFFFFFFFF>︽ Gates</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -996,7 +996,7 @@ presets:
         - 4088
         - 4093
         - 4107
-- - '&lt;color=0xFFFFFFFF&gt;︽ Docks&lt;/color&gt;'
+- - '<color=0xFFFFFFFF>︽ Docks</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -2409,7 +2409,7 @@ presets:
         - 4655
         - 4656
         - 4673
-- - '&lt;color=0xFFD38FFD&gt;✜ Salvage/Loot&lt;/color&gt;'
+- - '<color=0xFFD38FFD>✜ Salvage/Loot</color>'
   - - - alwaysShownStates
       - - 36
         - 37
@@ -2474,7 +2474,7 @@ presets:
         - 4088
         - 4093
         - 4107
-- - '&lt;color=0xFFFF6666&gt;✜ -- All Targets&lt;/color&gt;'
+- - '<color=0xFFFF6666>✜ -- All Targets</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -2978,7 +2978,7 @@ presets:
         - 4636
         - 4637
         - 4638
-- - '&lt;color=0xFFFFFFFF&gt;︽ SOV&lt;/color&gt;'
+- - '<color=0xFFFFFFFF>︽ SOV</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -2993,7 +2993,7 @@ presets:
         - 1149
         - 1274
         - 1316
-- - '&lt;color=0xFFFFFF66&gt;✥ Target: Juicy&lt;/color&gt;'
+- - '<color=0xFFFFFF66>✥ Target: Juicy</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -3614,7 +3614,7 @@ presets:
         - 4655
         - 4656
         - 4673
-- - '&lt;color=0xFFFFFFFF&gt;︽ SOV/FW&lt;/color&gt;'
+- - '<color=0xFFFFFFFF>︽ SOV/FW</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -4834,7 +4834,7 @@ tabSetup:
     - - name
       - <b>✈ Travel
     - - overview
-      - '&lt;color=0xFFFFFFFF&gt;︽ Travel&lt;/color&gt;'
+      - '<color=0xFFFFFFFF>︽ Travel</color>'
     - - tabColumnOrder
       - - ICON
         - NAME
@@ -4863,7 +4863,7 @@ tabSetup:
     - - name
       - <b>➲ Gates
     - - overview
-      - '&lt;color=0xFFFFFFFF&gt;︽ Gates&lt;/color&gt;'
+      - '<color=0xFFFFFFFF>︽ Gates</color>'
     - - tabColumnOrder
       - - ICON
         - NAME
@@ -4893,7 +4893,7 @@ tabSetup:
     - - name
       - <b>⌂ Docking
     - - overview
-      - '&lt;color=0xFFFFFFFF&gt;︽ Docks&lt;/color&gt;'
+      - '<color=0xFFFFFFFF>︽ Docks</color>'
     - - tabColumnOrder
       - - ICON
         - NAME
@@ -4922,7 +4922,7 @@ tabSetup:
     - - name
       - <b>❂ Celestial
     - - overview
-      - '&lt;color=0xFFFFFFFF&gt;︽ Celestials&lt;/color&gt;'
+      - '<color=0xFFFFFFFF>︽ Celestials</color>'
     - - tabColumnOrder
       - - ICON
         - NAME
@@ -4951,7 +4951,7 @@ tabSetup:
     - - name
       - .
     - - overview
-      - '&lt;color=0xFFFFFFFF&gt;︽ SOV/FW&lt;/color&gt;'
+      - '<color=0xFFFFFFFF>︽ SOV/FW</color>'
 - - 5
   - - - bracket
       - '<color=0xFFFF6666>⌘ Brackets: Combat/Targets/Friendly (+Dro)</color>'
@@ -4971,7 +4971,7 @@ tabSetup:
     - - name
       - <b>✜ All
     - - overview
-      - '&lt;color=0xFFFF6666&gt;✜ -- All Targets&lt;/color&gt;'
+      - '<color=0xFFFF6666>✜ -- All Targets</color>'
     - - tabColumnOrder
       - - ICON
         - NAME
@@ -5151,7 +5151,7 @@ tabSetup:
     - - name
       - <b>✜ Loot
     - - overview
-      - '&lt;color=0xFFD38FFD&gt;✜ Salvage/Loot&lt;/color&gt;'
+      - '<color=0xFFD38FFD>✜ Salvage/Loot</color>'
 - - 15
   - - - bracket
       - '<color=0xFF66FF66>⌘ Brackets: Warpout (!)</color>'
@@ -5162,7 +5162,7 @@ tabSetup:
     - - name
       - <b>✜ GTFO
     - - overview
-      - '<color=0xFF66FF66>⌘ Brackets: Warpout (!)</color>'
+      - '<color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
     - - tabColumns
       - - ICON
         - DISTANCE
