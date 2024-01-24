@@ -1,2 +1,0 @@
-add abyssal filter w/ wrecks
-add agents to ratting overview
