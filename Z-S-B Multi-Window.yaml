@@ -135,6 +135,36 @@ presets:
         - 1657
         - 2016
         - 2017
+- - '<color=0xFFFFFF66>✥ Target: Links/Boosh</color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 21
+        - 45
+        - 49
+    - - groups
+      - - 90
+        - 361
+        - 479
+        - 540
+        - 548
+        - 549
+        - 863
+        - 864
+        - 897
+        - 1023
+        - 1249
+        - 1534
+        - 1548
+        - 2020
+        - 4088
+        - 4093
+        - 4107
 - - '<color=0xFFFD96CF>※ D-Scan: Ships (Defensive)</color>'
   - - - alwaysShownStates
       - []
