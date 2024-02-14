@@ -5124,7 +5124,7 @@ shipLabels:
   - - - color
       - *id001
     - - fontsize
-      - 10
+      - 11
     - - post
       - '] '
     - - pre
