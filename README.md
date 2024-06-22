@@ -1,6 +1,10 @@
 # baseline's modified Z-S Overview
 
-Single Window is for one overview window
+Is this too much work for a stupid overview? Absolutely. But whenever an expansion comes out I keep making stupid mistakes when updaing my overviews so I'm making this to organize my thoughts and design philosophy.
+
+## Overview Types
+
+Single Window is for one overview window. **Currently not updated.**
 
 Multi-Window is meant for 3 as pictured below
 <details>
@@ -9,16 +13,56 @@ Multi-Window is meant for 3 as pictured below
   ![multi window](images/Multi_Window.png)
 </details>
 
+
+## Other Files
+
+`colors.txt` saves common coloring tags
+
+`Grouped Types.yaml` saves all groups within a category in each filter, e.g. everything under the "Asteroid" filter lists groups in the "Asteroid" type from the filters tab. This is just to make c + p and manual yaml editing a bit easier
+
+* Also saves common groupings, such as (and not limited to):
+  * Drones and fighters
+  * Immediate threats, such as bombs and probes
+  * Containers
+
+(Not sure if there's a database out there somewhere that actually lists these out. I've been asking in help channels for months)
+
+
+## Window Organization:
+
+Refer to multi window image
+
+### Filters i.e. stuff you see in the overview:
+
+#### ︽ Top window to show warpables and relevant celestials i.e. stuff off grid
+
+* Travel: Displays all major warp-tos and system-wide affects, including most of the types below in this category
+* Celestials: All warpable objects in space
+* Docks: Anything you can potentially dock in
+* FW/SOV: Faction warfare and nullsec sovereignty points
+
+#### ✜ Middle main window to show immediate contacts of interest or threats i.e. stuff on grid with you
+
+    All filters here will include immediate threats, such as bombs, probes, and certain deployables
+
+* All Targets: All combat-related entities relevant to immediate grid awareness
+* PvE: Ditto, including krabbing activities
+* Ships only: As name implies for minimal clutter
+* ✥ Target [Group]: Specific types to display, like tackle and ewar. Note that because T1 ships are not separated by bonus types there will be some overlap, e.g. all frigates in "tackle". Unneeded info > no info
+
+#### Bottom window to show all non-immediate stuff on grid
+
+* ✪ Friendly All: All allies, excluding FW militia due to FRAT awoxing
+* ✪ Friendly Fleet: Fleet members only. Meant for logi and NPSI
+* ✜ Covops Collidables: Anything that can decloak you
+* ✜ Salvage/Loot: This one's for Brave. Includes MTUs and depos
+
+### ⌘ Bracket Filters i.e. stuff you see in space:
+
+* Combat (+Dro): All combat-related entities that can damage you and vise versa.
+* Combat (-Dro): Ditto, but no drones and fighters. **Not for regular use**, this is meant for large fleet battles to reduce clutter
+* PvE: Mostly the same as above but includes krabbing activities like PI, asteroids, etc.
+
 ---
 
-`colors.txt` saves standard coloring schemes.
-
-`Grouped Types.yaml` saves all groups within a category in each filter, e.g. everything under the "Asteroid" filter lists groups in the "Asteroid" type from the filters tab.
-
-* Also saves groupings for common filters, e.g. always all bombs and bubbles
-
-(Not sure if there's a database out there somewhere that actually lists these out.)
-
----
-
-### Keep calm and /open_overview_settings
+Keep calm and /open_overview_settings
