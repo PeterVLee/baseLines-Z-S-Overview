@@ -1,24 +1,20 @@
-red combat
+combat red
 '<color=0xFFFF6666></color>'
 
-yellow targets
+target yellow
 '<color=0xFFFFFF66></color>'
 
-whitish
+miscellaneous white
 '<color=0xFFFFFFFF></color>'
 
-blue
+friendly blue
 '<color=0xFF66CCFF></color>'
 
-green
+warping green
 '<color=0xFF66FF66></color>'
 
-purple dscan
+scanning purple
 '<color=0xFFFD96CF></color>'
 
-purple pve
+ratting purple
 '<color=0xFFD38FFD></color>'
-
-
-
-test color
