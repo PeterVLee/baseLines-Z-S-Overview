@@ -18,14 +18,14 @@ Multi-Window is meant for 3 as pictured below
 
 `colors.txt` saves common coloring tags
 
+Files in the `sorting` folder are meant to help with combining groups together
+
 `Grouped Types.yaml` saves all groups within a category in each filter, e.g. everything under the "Asteroid" filter lists groups in the "Asteroid" type from the filters tab. This is just to make c + p and manual yaml editing a bit easier
 
 * Also saves common groupings, such as (and not limited to):
   * Drones and fighters
   * Immediate threats, such as bombs and probes
   * Containers
-
-(Not sure if there's a database out there somewhere that actually lists these out. I've been asking in help channels for months)
 
 
 ## Window Organization:
@@ -60,7 +60,7 @@ Refer to multi window image
 ### ⌘ Bracket Filters i.e. stuff you see in space:
 
 * Combat (+Dro): All combat-related entities that can damage you and vise versa.
-* Combat (-Dro): Ditto, but no drones and fighters. **Not for regular use**, this is meant for large fleet battles to reduce clutter
+* Combat (-Dro): Ditto, but no drones and fighters. **Not recommended for regular use**, this is meant for large fleet battles to reduce clutter
 * PvE: Mostly the same as above but includes krabbing activities like PI, asteroids, etc.
 
 ---
