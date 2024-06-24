@@ -7,8 +7,20 @@ def intify(input_list):
     Args:
         input_list (list): List to turn into ints
     """
+
+    bad_lines = []
+    bad_line_count = 0
+
     for i, line in enumerate(input_list):
-        input_list[i] = int(re.findall(r'\d+', line)[0])
+        try:
+            input_list[i] = int(re.findall(r'\d+', line)[0])
+        except IndexError:
+            bad_lines.append(i)
+            continue
+
+    for index in bad_lines:
+        input_list.pop(index - bad_line_count)
+        bad_line_count += 1
 
 def groupify(input_list):
     """Turn list elements into overview.yaml group strs
@@ -17,10 +29,10 @@ def groupify(input_list):
         input_list (list): List to turn into group strs
     """
     for i, line in enumerate(input_list):
-        if i == 0:
-            input_list[i] = "      - - " + str(line) + "\n"
-        else:
-            input_list[i] = "        - " + str(line) + "\n"
+        input_list[i] = "        - " + str(line) + "\n"
+    
+    input_list[0] = input_list[0][:6] + '-' + input_list[0][7:]
+    input_list[-1] = input_list[-1][:-1]
 
 def sort(input_list):
     """Sort list and remove dupes

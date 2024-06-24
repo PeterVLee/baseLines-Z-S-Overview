@@ -1,3 +1,5 @@
 ignore/*
 *~
 testing.yaml
+**/__pycache__
+Group*Parsing/__pycache__/
