@@ -18,9 +18,17 @@ Multi-Window is meant for 3 as pictured below
 
 `colors.txt` saves common coloring tags
 
-Files in the `sorting` folder are meant to help with combining groups together
+Files in the `Group Parsing` folder has python scripts that process filter groups.
 
-`Grouped Types.yaml` saves all groups within a category in each filter, e.g. everything under the "Asteroid" filter lists groups in the "Asteroid" type from the filters tab. This is just to make c + p and manual yaml editing a bit easier
+* Combine: c + p filter groups in `oringnal.txt`, run the script, and they will appear sorted with removed dupes in `result.txt`
+* Remove: c + p a filter group in `original.txt`, and another filter group in `remove.txt` that you'd like to take out from the original. For example:
+
+      original = [1, 2, 3, 4, 5]
+      remove = [2, 4]
+      ->
+      final = [1, 3, 5]
+
+`Grouped Types.yaml` saves all groups within a category in each filter, e.g. everything under the "Asteroid" filter lists groups in the "Asteroid" type from the filters tab. This is just to make c + p and manual yaml editing a bit easier.
 
 * Also saves common groupings, such as (and not limited to):
   * Drones and fighters
