@@ -4098,7 +4098,6 @@ presets:
         - 1404
         - 1406
         - 1657
-        - 4744
 - - '<color=0xFFFFFF66>✥ Target: Drones</color>'
   - - - alwaysShownStates
       - []
@@ -4492,7 +4491,9 @@ presets:
         - 4547
         - 4549
         - 4644
+        - 4736
         - 4744
+        - 4745
 - - '<color=0xFFFF6666>✜ = CovOps: Collidables</color>'
   - - - alwaysShownStates
       - []
